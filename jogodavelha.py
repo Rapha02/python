@@ -51,7 +51,7 @@ class JogoDaVelha_PvB:
                 print('\033[1;31m\nDigite um valor válido!')
                 sleep(1.25)
                 self.jogada()
-            linha = int(input('\033[1;97mLinha.: '))
+            linha = int(input('\033[1;97mLinha: '))
 
             if self.a[linha][coluna] == ' ':
                 self.a[linha][coluna] = '\033[1;97mX\033[1;36m'
@@ -197,7 +197,7 @@ class JogoDaVelha_PvP:
                 print('\033[1;31m\nDigite um valor válido!')
                 sleep(1.25)
                 self.jogada()
-            linha = int(input('\033[1;97mLinha.: '))
+            linha = int(input('\033[1;97mLinha: '))
 
             if self.a[linha][coluna] == ' ':
                 self.a[linha][coluna] = '\033[1;97mX\033[1;36m' if self.vez == 1 else '\033[1;97mO\033[1;36m'
